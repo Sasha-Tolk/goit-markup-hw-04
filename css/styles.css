@@ -313,9 +313,9 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--background-dark-color);
   display: block;
-
-  padding-top: 60px;
-  padding-bottom: 60px;
+}
+.notFlex {
+  margin: 60px 0px;
 }
 footer .logo {
   color: var(--main-color);
@@ -341,13 +341,23 @@ address a:focus {
 footer .container {
   display: flex;
 }
+.flex {
+  margin: 72px auto 100px 70px;
+}
 .flex p {
   text-transform: uppercase;
   color: var(--main-color);
 
-  font-style: 700px;
+  font-style: bold;
   font-size: 14px;
   line-height: 1.2;
+
+  margin-bottom: 20px;
+}
+.flex a {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  fill: var(--main-color);
 }
 
 /*FOOTER*/
