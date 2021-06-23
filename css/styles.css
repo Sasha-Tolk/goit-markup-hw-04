@@ -247,7 +247,7 @@ h2 {
   color: var(--pretitle-text-color);
 
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .ourTeam ul {
   display: flex;
@@ -259,7 +259,24 @@ h2 {
 .ourTeam li:not(:nth-last-child(1)) {
   margin-right: 30px;
 }
-
+.socialNetworkIconsList a {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+}
+.socialNetworkIconsList {
+  flex-basis: 206px;
+  margin-bottom: 30px;
+}
+.socialNetworkIconsList li:not(:nth-last-child(1)) {
+  margin-right: 10px;
+}
+.socialNetworkIcons:hover,
+.socialNetworkIcons:focus {
+  fill: var(--main-color);
+  background-color: var(--accent-color);
+  border-radius: 50px;
+}
 /*STUDIO HEADER*/
 /*FOOTER*/
 footer {
