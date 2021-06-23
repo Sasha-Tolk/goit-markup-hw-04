@@ -271,6 +271,7 @@ h2 {
   fill: var(--icons-color);
 }
 .socialNetworkIconsList {
+  display: flex;
   flex-basis: 206px;
   margin-bottom: 30px;
   fill: var(--icons-color);
@@ -285,10 +286,26 @@ h2 {
   border-radius: 50px;
 }
 .custumer {
-  padding: 0px 94px;
+  padding: 94px 0px;
 }
 .custumerList {
   display: flex;
+  margin-top: 50px;
+}
+.custumer a {
+  padding: 16px 32px;
+  fill: var(--icons-color);
+  border: var(--icons-color) solid 1px;
+  border-radius: 5px;
+}
+.custumer li:not(:nth-last-child(1)) {
+  margin-right: 30px;
+}
+.custumerList a:hover,
+.custumerList a:focus {
+  fill: var(--accent-color);
+  border: var(--accent-color) solid 1px;
+  border-radius: 5px;
 }
 /*STUDIO HEADER*/
 /*FOOTER*/
@@ -321,6 +338,18 @@ address a:hover,
 address a:focus {
   color: var(--accent-color);
 }
+footer .container {
+  display: flex;
+}
+.flex p {
+  text-transform: uppercase;
+  color: var(--main-color);
+
+  font-style: 700px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
 /*FOOTER*/
 /*PORTFOLIO*/
 .portfolio {
